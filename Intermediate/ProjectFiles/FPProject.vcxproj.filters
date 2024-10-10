@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\FPProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FPProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FPProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultCrypto.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\FPProject">
+      <UniqueIdentifier>{C4D844E5-76AB-303C-A027-A29DD01A725A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FPProject\AbilityInputSubsystem.cpp">
+      <Filter>Source\FPProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPProject\AbilityInputSubsystem.h">
+      <Filter>Source\FPProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPProject\FPAttributeSet.cpp">
+      <Filter>Source\FPProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPProject\FPAttributeSet.h">
+      <Filter>Source\FPProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPProject\FPPlayerState.cpp">
+      <Filter>Source\FPProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPProject\FPPlayerState.h">
+      <Filter>Source\FPProject</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\FPProject\FPProject.Build.cs">
+      <Filter>Source\FPProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\FPProject\FPProject.cpp">
+      <Filter>Source\FPProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPProject\FPProject.h">
+      <Filter>Source\FPProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPProject\FPProjectCharacter.cpp">
+      <Filter>Source\FPProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPProject\FPProjectCharacter.h">
+      <Filter>Source\FPProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPProject\FPProjectGameMode.cpp">
+      <Filter>Source\FPProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPProject\FPProjectGameMode.h">
+      <Filter>Source\FPProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPProject\FPProjectPlayerController.cpp">
+      <Filter>Source\FPProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPProject\FPProjectPlayerController.h">
+      <Filter>Source\FPProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPProject\FPProjectProjectile.cpp">
+      <Filter>Source\FPProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPProject\FPProjectProjectile.h">
+      <Filter>Source\FPProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPProject\Indicator.cpp">
+      <Filter>Source\FPProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPProject\Indicator.h">
+      <Filter>Source\FPProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPProject\TestAttributeSet.cpp">
+      <Filter>Source\FPProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPProject\TestAttributeSet.h">
+      <Filter>Source\FPProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPProject\TP_PickUpComponent.cpp">
+      <Filter>Source\FPProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPProject\TP_PickUpComponent.h">
+      <Filter>Source\FPProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPProject\TP_WeaponComponent.cpp">
+      <Filter>Source\FPProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPProject\TP_WeaponComponent.h">
+      <Filter>Source\FPProject</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

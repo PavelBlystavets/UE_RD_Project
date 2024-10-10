@@ -1,0 +1,13 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/darka/OneDrive/Documents/GitHub/UE_RD_Project/Content/FirstPerson/Blueprints/BP_Indicator.uasset",
+				"C:/Users/darka/OneDrive/Documents/GitHub/UE_RD_Project/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/PZ/J1V919CN5RJZNKN43TZGMB.uasset"
+			]
+		}
+	]
+}

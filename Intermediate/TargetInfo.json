@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "FPProject",
+			"Path": "..\\Source\\FPProject.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FPProjectEditor",
+			"Path": "..\\Source\\FPProjectEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

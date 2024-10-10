@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\darka\\onedrive\\documents\\github\\ue_rd_project\\source\\fpproject\\fpproject.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\darka\\onedrive\\documents\\github\\ue_rd_project\\intermediate\\build\\win64\\x64\\fpprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\darka\\onedrive\\documents\\github\\ue_rd_project\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fpproject\\definitions.fpproject.h",
+            "c:\\users\\darka\\onedrive\\documents\\github\\ue_rd_project\\source\\fpproject\\fpproject.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
