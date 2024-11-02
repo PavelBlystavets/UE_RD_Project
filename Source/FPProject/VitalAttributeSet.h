@@ -27,6 +27,10 @@ public:
 	FGameplayAttributeData Hunger;
 	ATTRIBUTE_ACCESSORS(UVitalAttributeSet, Hunger)
 
+	UPROPERTY(BlueprintReadOnly)
+	FGameplayAttributeData MaxHunger;
+	ATTRIBUTE_ACCESSORS(UVitalAttributeSet, MaxHunger)
+
 	void PreAttributeChange(const FGameplayAttribute& Attribute, float& NewValue);
 	void PostAttributeChange(const FGameplayAttribute& Attribute, float OldValue, float NewValue);
 	
