@@ -7,7 +7,7 @@
 #include "VitalAttributeSet.generated.h"
 
 /**
- * 
+ *
  */
 UCLASS()
 class FPPROJECT_API UVitalAttributeSet : public UFPAttributeSet
@@ -33,6 +33,6 @@ public:
 
 	void PreAttributeChange(const FGameplayAttribute& Attribute, float& NewValue);
 	void PostAttributeChange(const FGameplayAttribute& Attribute, float OldValue, float NewValue);
-	
-	
+
+
 };
