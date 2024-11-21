@@ -2,8 +2,9 @@
 
 
 #include "VitalAttributeSet.h"
+#include "NativeGameplayTags.h"
 
-//UE_DEFINE_GAMEPLAY_TAG(STATUS_DEAD, "Status.Dead");
+UE_DEFINE_GAMEPLAY_TAG(STATUS_DEAD, "Status.Dead");
 
 void UVitalAttributeSet::PreAttributeChange(const FGameplayAttribute& Attribute, float& NewValue)
 {
@@ -23,7 +24,7 @@ void UVitalAttributeSet::PostAttributeChange(const FGameplayAttribute& Attribute
 	{
 		if (NewValue <= 0.f)
 		{
-			//GetOwningAbilitySystemComponent()->AddLooseGameplayTag(STATUS_DEAD);
+			GetOwningAbilitySystemComponent()->AddLooseGameplayTag(STATUS_DEAD);
 		}
 		
 	}
